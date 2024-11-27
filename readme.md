@@ -17,7 +17,7 @@
 
  - Django Project  <br/>
 
-        jango-admin startproject chaiaurdjango
+        django-admin startproject chaiaurdjango
         cd chaiaurdjango
 
  - Start a Django Server  <br/>
