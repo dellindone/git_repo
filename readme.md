@@ -1,4 +1,3 @@
-#Overview
 **[Get Start with Django](https://docs.chaicode.com/getting-started-with-django/)** &nbsp;&nbsp;&nbsp;&nbsp;[Ignore UV and go with regular pip.]
 
 - What is Django?
