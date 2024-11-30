@@ -15,6 +15,7 @@ class ChaiVerity(models.Model):
     date_added = models.DateTimeField(default=timezone.now)
     chai_type = models.CharField(max_length=2, choices=CHAI_TYPE_CHOICE)
     description = models.TextField(default='')
+    price = models.IntegerField(default=0)
 
     def __str__(self):
         return self.name
