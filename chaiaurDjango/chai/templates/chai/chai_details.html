@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Chai Detail Page
+{% endblock %}
+
+{% block content %}
+    <h1>Chai Detail Page</h1>
+    <p>{{ chai.name }}</p>
+    <p>{{ chai.description }}</p>
+    <h3>        
+        <a href="{% url 'all_chai' %}">
+            <button id="Show All Chai" type="button" class="bg-red-500 rounded-md items-center text-current justify-center 
+                                                                px-4 py-2 border-transparent hover:bg-orange-700 border">
+            Show All Chai
+        </button>
+        </a>
+    </h3>
+
+    
+{% endblock %}
