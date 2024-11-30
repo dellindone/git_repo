@@ -13,8 +13,10 @@
     <link rel="stylesheet" href="{% static 'style.css' %}">
 	{% tailwind_css %}
 </head>
-<body>
+<body class="bg-blue-900">
     <nav> This is our nav bar</nav>
+    <div ">
     {% block content %}{% endblock %}
+    </div>
 </body>
 </html>
